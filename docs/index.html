@@ -38,8 +38,78 @@
 
         <div class="contenedor contenedorApp">
 
+
+            <a href="#" class="buttonConfig">
+                <p class="buttonConfig__text"> </p>
+            </a>
+
+            <div class="app__area app__area1">
+
+                <h2 class="app__title"> ¡Calculá tus ingresos netos! </h2>
+
+                <input type="number" class="app__valorEntrada" placeholder="Ingresá el importe bruto (final)"></input>
+
+                <div class="regButton">
+                    <button class="button" id="buttonCalcular"> Calcular </button>  
+                </div>  
+                
+                <p class="app__message"></p>
+
+            </div>
+
+            <div class="app__area app__area2">
+
+                <div class="app__InfoNeto">
+                    <h2 class="app__title2"> Neto Cobrado </h2>
+                    <p class="app__descNeto"> $0 </p>
+                </div>
+
+                <div class="app__InfoPorNeto">
+                    <h3 class="app__sub"> Porcentaje en mano </h2>
+                    <p class="app__infoNeto"> 0% </p>
+                </div>
+
+                <div class="app__InfoDescuentos">
+                    <h3 class="app__sub"> Total descontado </h2>
+                    <p class="app__infoNeto app__infoNetoDescontado"> $0 </p>
+                </div>
+
+                <div class="regButton regButton--area2">
+                   <a href="index.html"> <button class="button"> Nuevo Cálculo </button> </a> 
+                </div>        
+
+            </div>
+
         </div>
 
+    </section>
+
+    <section class="modalConfig">
+
+        <div class="contenedor contenedorModalConfig">
+
+            <div class="modalConfig__area">
+
+                <i class="fa-solid fa-xmark modalConfig__cerrar"></i>
+
+                <h2 class="modalConfig__titulo"> ¡Configurá tus descuentos! </h2>
+                <h3 class="modalConfig__sub"> Configura el porcentaje estimado de descuentos sobre el total de tu salario</h3>
+
+                <input type="number" class="modalConfig__valorEntrada" value="20">
+
+                <div class="regButton">
+                    <button class="button button--white" id="buttonConfirmar"> Confirmar </button>
+                </div> 
+
+                <div class="modalConfig__areaMensaje">
+                    <p class="modalConfig__mensaje"> . </p>
+                </div>
+            
+
+            </div>
+
+        </div>
+     
     </section>
 
     <footer class="footer">
