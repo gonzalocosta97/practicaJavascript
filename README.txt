@@ -7,6 +7,7 @@ Podrás ver, en caso que revises el código, que el mismo no se encuentra coment
 En caso que el proyecto posea actualizaciones, a futuro se añadirán los respectivos comentarios y guías para poder efectivizar un mejor trabajo colaborativo.
 
 (!) Aclaración: La app es versión de escritorio, no posee versión responsive mobile / tablets.
+(!) Alacaración 2: No se ha empleado ningún framework ni librería.
 
 ----------
 
